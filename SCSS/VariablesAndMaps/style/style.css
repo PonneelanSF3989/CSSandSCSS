@@ -1,0 +1,106 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  height: 410px;
+  width: 750px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(227, 229, 241);
+}
+.main .main_first-box {
+  height: 350px;
+  width: 250px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  background-color: white;
+}
+.main .main_first-box img {
+  height: 80px;
+  width: 100px;
+}
+.main .main_first-box :nth-child(2) {
+  font-size: 20px;
+  font-weight: font_wight;
+}
+.main .main_first-box :nth-child(3) {
+  text-align: center;
+}
+.main .main_first-box button {
+  height: 30px;
+  width: 90px;
+  border: 1px solid orange;
+  background-color: white;
+  border-radius: 50px;
+  color: orange;
+}
+.main .main_second-box {
+  height: 350px;
+  width: 250px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  background-color: white;
+}
+.main .main_second-box img {
+  height: 80px;
+  width: 100px;
+}
+.main .main_second-box :nth-child(2) {
+  font-size: 20px;
+  font-weight: font_wight;
+}
+.main .main_second-box :nth-child(3) {
+  text-align: center;
+}
+.main .main_second-box button {
+  height: 30px;
+  width: 90px;
+  border: 1px solid orange;
+  background-color: white;
+  border-radius: 50px;
+  color: orange;
+}
+.main .main_third-box {
+  height: 350px;
+  width: 250px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  background-color: white;
+}
+.main .main_third-box img {
+  height: 80px;
+  width: 100px;
+}
+.main .main_third-box :nth-child(2) {
+  font-size: 20px;
+  font-weight: font_wight;
+}
+.main .main_third-box :nth-child(3) {
+  text-align: center;
+}
+.main .main_third-box button {
+  height: 30px;
+  width: 90px;
+  border: 1px solid orange;
+  background-color: white;
+  border-radius: 50px;
+  color: orange;
+}/*# sourceMappingURL=style.css.map */

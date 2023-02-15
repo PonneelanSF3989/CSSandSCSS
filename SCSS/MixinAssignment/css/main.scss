@@ -1,0 +1,66 @@
+
+@mixin bottomborder
+{
+    border-bottom: 1pz solid black;    
+}
+
+@mixin mainMixin 
+{
+    border: 1px solid black;  
+    background-color : aliceblue;     
+}
+
+body
+{
+    padding: 30px 10px 40px 10px;
+}
+.main
+{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    @include mainMixin();
+
+    .header
+    {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        #title
+        {
+            text-align: center;
+        }
+    }
+    .content
+    {
+        .grid-container
+        {
+            display: grid;
+            grid-template-columns:repeat(3, 1fr) ;
+            column-gap: 10px;
+            .grid-item
+            {
+                img
+                {
+                    height: 30px;
+                    width: 30px;
+                }
+                padding: 10px 5px;
+                :nth-child(2)
+                {
+                    font-weight: bold;
+                }
+                @include bottomborder();
+            }
+            
+        }
+    }
+
+    
+}
+
+

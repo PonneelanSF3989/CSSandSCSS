@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .main-container {
+  display: flex;
+}
+body .main-container .box {
+  height: 100vh;
+  background-color: grey;
+  margin-right: 10px;
+}
+body .main-container .first-colounm {
+  width: 150px;
+}
+body .main-container .second-colounm {
+  width: 250px;
+}
+body .main-container .third-colounm {
+  width: 400px;
+}
+body .main-container .fourth-colounm {
+  width: 500px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,144 @@
+$main_backgoundcolor :  rgb(227 229 241);
+$default_backgoundcolor :white;
+$button_color : orange;
+$button_border : 1px solid orange;
+$main_container_height : 410px;
+$main_container_width : 750px;
+$box_height : 350px;
+$box_width : 250px;
+$image_height : 80px;
+$image_width : 100px;
+$button_height : 30px ;
+$button_width : 90px;
+$border-Style : 1px solid black;
+$font_wight : bold;
+
+
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main
+{
+    height: $main_container_height;
+    width : $main_container_width;
+    border: $border-Style;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:$main_backgoundcolor;
+    
+
+    .main_first-box
+    {
+
+        height: $box_height;
+        width: $box_width;
+        // background-color: grey;
+        padding: 20px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        background-color: $default_backgoundcolor;
+        img
+        {
+            height: $image_height;
+            width: $image_width;
+        }
+        :nth-child(2)
+        {
+           font-size: 20px;
+           font-weight: font_wight;
+        }
+        :nth-child(3)
+        {
+           text-align: center;
+        }
+        button
+        {
+            height: $button_height;
+            width: $button_width;
+            border:$button_border;
+            background-color: $default_backgoundcolor;
+            border-radius: 50px;
+            color: $button_color;
+        }
+    }
+    .main_second-box
+    {
+        height: $box_height;
+        width: $box_width;
+        // background-color: grey;
+        padding: 20px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        background-color: $default_backgoundcolor;
+        img
+        {
+            height: $image_height;
+            width: $image_width;
+        }
+        :nth-child(2)
+        {
+           font-size: 20px;
+           font-weight: font_wight;
+        }
+        :nth-child(3)
+        {
+           text-align: center;
+        }
+        button
+        {
+            height: $button_height;
+            width: $button_width;
+            border: $button_border;
+            background-color: $default_backgoundcolor;
+            border-radius: 50px;
+            color: $button_color;
+        }
+    }
+    .main_third-box
+    {
+        height: $box_height;
+        width: $box_width;
+        // background-color: grey;
+        padding: 20px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        background-color: $default_backgoundcolor;
+        img
+        {
+            height: $image_height;
+            width: $image_width;
+        }
+       :nth-child(2)
+        {
+           font-size: 20px;
+           font-weight: font_wight;
+        }
+        :nth-child(3)
+        {
+           text-align: center;
+        }
+        button
+        {
+            height: $button_height;
+            width: $button_width;
+            border:$button_border;
+            background-color: $default_backgoundcolor;
+            border-radius: 50px;
+            color: $button_color;
+        }
+    }
+}

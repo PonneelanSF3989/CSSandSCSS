@@ -1,0 +1,41 @@
+@import './_variable';
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top : 150px;
+
+.main
+{
+    height: $main_container_height;
+    width: $main_container_width;
+    border:  $outer_broder;
+   
+   
+    .box
+    {
+        display: flex;
+        flex-direction: column;
+        .title
+        {
+            font-weight: $font_weight;
+        }
+        .description
+        {
+            display: flex;
+            .divider
+            {
+                margin: 0px 5px 0px 5px;
+            }
+            .links a
+            {
+                text-decoration: none;
+            }
+        }
+        border-bottom: 1px solid black;
+        padding: 10px;
+    }
+}
+}

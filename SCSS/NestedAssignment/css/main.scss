@@ -1,0 +1,53 @@
+$border: 1px solid black;
+$bottom_border : 1pz solid black;
+$background_color : aliceblue;
+
+body
+{
+    padding: 30px 10px 40px 10px;
+}
+.main
+{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    border:$border;
+    padding: 0px 10px;
+    background-color: $background_color;
+
+    .header
+    {
+        width: auto;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        #title
+        {
+            text-align: center;
+        }
+    }
+    .content
+    {
+        .grid-container
+        {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 10px;
+            .grid-item
+            {
+                padding: 10px 5px;
+                :first-child
+                {
+                    font-weight: bold;
+                }
+                border-bottom: $bottom_border;
+            }
+            
+        }
+    }
+
+    
+}
+
+

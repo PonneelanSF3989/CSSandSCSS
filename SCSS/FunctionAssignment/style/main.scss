@@ -1,0 +1,39 @@
+@import './variable';
+
+@function GetWidhth($size)
+{
+    @return $size;
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .main-container
+    {
+        display: flex;
+        .box
+        {
+            height: 100vh;
+            background-color: grey;
+            margin-right: 10px;
+        }
+        .first-colounm
+        {
+            width: GetWidhth(150px);
+        }
+        .second-colounm
+        {
+            width: GetWidhth(250px);
+        }
+        .third-colounm
+        {
+            width: GetWidhth(400px);
+        }
+        .fourth-colounm
+        {
+            width: GetWidhth(500px);
+        }
+    }
+}
+

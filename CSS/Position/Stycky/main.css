@@ -1,0 +1,50 @@
+/* 
+1.relative is know as default loyout. 
+
+2.but it take the four rule
+    1. left
+    2. top
+    3. right
+    4. bottom
+
+3.it relative to the parent.
+*/
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+
+.header 
+{
+    height: 200px;
+    background-color: skyblue;
+}
+
+.navbar
+{
+    height: 50px;
+    background-color: tomato;
+    position: sticky;
+    top: 0px;
+}
+.box1
+{
+    padding: 10px;
+    background-color: gray;
+}
+.footer
+{
+    height: 200px;
+    background-color: yellow;
+}
+
+.navbar ul li
+{
+    display:inline-block;
+    list-style: none;
+    padding: 15px;
+}

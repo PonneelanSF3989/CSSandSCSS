@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+}
+body .main {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: 2px solid black;
+}
+body .main .box {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+  padding: 10px;
+}
+body .main .box .title {
+  font-weight: bold;
+}
+body .main .box .description {
+  display: flex;
+}
+body .main .box .description .divider {
+  margin: 0px 5px 0px 5px;
+}
+body .main .box .description .links a {
+  text-decoration: none;
+}/*# sourceMappingURL=main.css.map */

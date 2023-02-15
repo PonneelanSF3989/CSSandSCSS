@@ -1,0 +1,105 @@
+$main_backgoundcolor :  rgb(227 229 241);
+$default_backgoundcolor :white;
+$button_color : orange;
+$button_border : 1px solid orange;
+$main_container_height : 410px;
+$main_container_width : 750px;
+$box_height : 350px;
+$box_width : 250px;
+$image_height : 80px;
+$image_width : 100px;
+$button_height : 30px ;
+$button_width : 90px;
+$border-Style : 1px solid black;
+$font_wight : bold;
+$red_color : red;
+$black_color : black;
+$body_height : 100vh;
+$green_color : green;
+
+
+body
+{
+    height: $body_height;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main
+{
+    height: $main_container_height;
+    width : $main_container_width;
+    border: $border-Style;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:$main_backgoundcolor;
+    
+
+    .main_first-box
+    {
+
+        height: $box_height;
+        width: $box_width;
+        // background-color: grey;
+        padding: 20px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        background-color: $default_backgoundcolor;
+        img
+        {
+            height: $image_height;
+            width: $image_width;
+        }
+       
+        p
+        {
+           text-align: center;
+        }
+        button
+        {
+            height: $button_height;
+            width: $button_width;
+            border:$button_border;
+            background-color: $default_backgoundcolor;
+            border-radius: 50px;
+            color: $button_color;
+        }
+    }
+    .main_second-box
+    {
+        @extend .main_first-box;
+        
+        p
+        {
+            color: $red_color;
+        }
+        button
+        {
+            border: 1px solid $red_color;
+            background-color: $black_color;
+            color: $red_color;
+        }
+    }
+    .main_third-box
+    {
+       @extend .main_first-box;
+       h3
+       {
+        font-size: 25px;
+       }
+       p
+       {
+        font-size: 19px;
+       }
+       button
+       {
+        border: 2px solid $black_color;
+        background-color: $green_color;
+        color: $default_backgoundcolor;
+       }
+    }
+}

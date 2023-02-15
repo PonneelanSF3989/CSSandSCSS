@@ -1,0 +1,209 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: grey;
+   
+}
+.base-container
+{
+    height: 400px;
+    width: 590px;
+    display: flex;
+    /* flex-direction: row; */
+    margin: 88px auto;
+    align-items: center;
+    justify-content: center;
+
+   
+}
+.left-container
+{
+    height: 353px;
+    width: 247px;
+    background-color: brown;
+    padding: 24px;
+    
+}
+.right-container
+{
+    height: 353px;
+    width: 247px;
+    background-color: white;
+    padding: 24px;
+
+}
+.syncfusion-logo
+{
+    height: 50px;
+    width: 200px;
+    padding: 22px 0px 22px 0px;
+}
+
+
+#hello
+{
+    color: white;
+    font-size: 20px;
+}
+.divider
+{
+    border-top: 1.5px solid white;
+    margin-top: 10px;
+}
+.socialmedia-text
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+.facebook
+{
+    
+    height: 37px;
+    width: auto;
+    background-color: rgb(4, 75, 163) ;
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+
+}
+.google
+{
+    
+    height: 37px;
+    width: auto;
+    background-color: red;
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.twitter
+{
+   
+    height: 37px;
+    width: auto;
+    background-color: rgb(29, 161, 242);
+    display: block;
+    color: white;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+a
+{
+    text-decoration: none;
+}
+#fb-logo
+{
+    height: 18px;
+    width: 20px;
+    padding: 0px 5px;
+}
+ #google-logo 
+{
+    height: 34px;
+    width: 30px;
+    padding: 0px 7px;
+}
+#twitter-logo
+{
+    height: 30px;
+    width: 25px;
+    padding: 0px 5px;
+}
+.socialmedia-buttons a:active
+{
+    color: white;
+}
+
+#login-text
+{
+    margin-top: 35px;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.login-msg
+{
+    color: brown;
+    font-size: 13px;
+}
+.text-box
+{
+    height: 38px;
+    width: 225px;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    opacity: .5;
+}
+.check-box
+{
+    display: flex;
+    margin-bottom: 10px;
+}
+#check-box-text
+{
+    margin-left: 10px;
+    font-weight: 400;
+}
+.links
+{
+    display: flex;
+    /* color: brown; */
+    font-size: 13px;
+    margin-top: 7px;
+}
+.login-button
+{
+    height: 32px;
+    width: 92px;
+    background-color: red;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-family: ui-monospace;
+    /* cursor: pointer; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#link
+{
+    color: brown;
+}
+#link-divider
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#login-account-text
+{
+    color: rgb(5, 126, 246);
+}
+
+
+@media only screen and (max-width : 600px)
+{
+    .base-container
+    {
+        height: 100vh;
+        width: 247px;
+        display: flex;
+        flex-direction: column;
+        padding: 100px;
+
+        align-items: center;
+        justify-content: center;
+       
+        
+    }
+}

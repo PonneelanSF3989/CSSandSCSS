@@ -1,0 +1,36 @@
+@import './variable';
+
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .main-container
+    {
+        display: flex;
+        .box
+        {
+            height: 100vh;
+            background-color: grey;
+            margin-right: 10px;
+
+        }
+        .first-colounm
+        {
+            width: 500px - 400px;
+        }
+        .box .second-colounm
+        {
+            width:500% - 200%;
+        }
+        .box .third-colounm
+        {
+            width: 500% - 300%;
+        }
+        .box .fourth-colounm
+        {
+            width: 500% - 100%;
+        }
+    }
+}
+

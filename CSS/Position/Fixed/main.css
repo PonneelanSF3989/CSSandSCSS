@@ -1,0 +1,52 @@
+/* 
+1.relative is know as default loyout. 
+
+2.but it take the four rule
+    1. left
+    2. top
+    3. right
+    4. bottom
+
+3.it relative to the document that mean body..
+
+4.it not relative to any one.
+*/
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.main-box
+{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    
+}
+
+.box
+{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    
+}
+
+.box1
+{
+    background-color: green;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+.box2
+{
+    background-color: yellow;
+}
+.box3
+{
+    background-color: red;
+}

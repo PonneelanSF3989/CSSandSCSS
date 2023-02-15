@@ -1,0 +1,38 @@
+/* 
+static is know as default loyout. it take the default positions/ 
+*/
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.main-box
+{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+
+}
+
+.box
+{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.box1
+{
+    background-color: green;
+}
+.box2
+{
+    background-color: yellow;
+}
+.box3
+{
+    background-color: red;
+}
